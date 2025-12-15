@@ -1,4 +1,4 @@
-package U3.EjemplosClase.Ej5;
+package U3.EjemplosClase.Ej1.EjercicioNivelAvanzado5;
 
 public class Principal {
     static void main() {
