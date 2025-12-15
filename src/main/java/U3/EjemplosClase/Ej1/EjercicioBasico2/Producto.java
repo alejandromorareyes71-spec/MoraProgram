@@ -1,14 +1,14 @@
 package U3.EjemplosClase.Ej1.EjercicioBasico2;
 
 public class Producto {
-    String nombre;
-    double precio;
-    int cantidad;
+ private String nombre;
+ private double precio;
+ private int cantidad;
 
-    public Producto (){
-        setNombre("nombre");
-        setPrecio(0.0);
-        setCantidad(0);
+    public Producto (String nombre, double precio, int cantidad){
+        setNombre(nombre);
+        setPrecio(precio);
+        setCantidad(cantidad);
     }
 
 
