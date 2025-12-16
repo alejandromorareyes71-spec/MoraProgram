@@ -1,4 +1,4 @@
-package U3.EjemplosClase.Ej1.EjercicioBasico2;
+package U3.EjemplosClase.U3E1.EjercicioBasico2;
 
 public class Producto {
  private String nombre;

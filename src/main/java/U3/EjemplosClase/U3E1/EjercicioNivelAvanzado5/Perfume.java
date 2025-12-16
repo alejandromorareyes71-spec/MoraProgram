@@ -1,4 +1,4 @@
-package U3.EjemplosClase.Ej1.EjercicioNivelAvanzado5;
+package U3.EjemplosClase.U3E1.EjercicioNivelAvanzado5;
 
 // La definición del enum debe estar accesible para la clase Perfume
 enum ingrediente {
