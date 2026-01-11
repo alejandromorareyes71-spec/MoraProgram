@@ -1,3 +1,5 @@
+package U2;
+
 import java.util.Scanner;
 
 public class e4j7 {static void main(String[] args) {
