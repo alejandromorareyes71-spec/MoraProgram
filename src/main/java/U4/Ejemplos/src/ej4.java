@@ -1,3 +1,5 @@
+package U4.Ejemplos.src;
+
 public class ej4 {
     public static void main(String[] args) {
         String [] [] alumnos= new String[5][5];

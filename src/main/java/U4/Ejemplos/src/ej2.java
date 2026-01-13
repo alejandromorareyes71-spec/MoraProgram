@@ -1,3 +1,5 @@
+package U4.Ejemplos.src;
+
 public class ej2 {
    public static void main(String[] args) {
        int par=2;

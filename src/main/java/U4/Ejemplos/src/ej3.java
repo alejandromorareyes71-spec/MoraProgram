@@ -1,3 +1,5 @@
+package U4.Ejemplos.src;
+
 public class ej3 {
     public static void main(String[] args) {
         // 1. DECLARACIÓN: n1 tiene 10 espacios, n2 tiene 15.
