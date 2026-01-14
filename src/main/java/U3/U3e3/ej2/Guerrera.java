@@ -1,13 +1,11 @@
 package U3.U3e3.ej2;
 
 public class Guerrera {
-    int vida= 20;
-    int experiencia =0;
-    int nivel=1;
+   private int vida= 20;
+   private int experiencia =0;
+   private int nivel=1;
 
-    public Guerrera(){
-
-    }
+    public Guerrera(){}
 
     public int getVida() {
         return vida;
@@ -43,11 +41,22 @@ public class Guerrera {
         }
         return dañoTotal;
     }
-    public void incExperiencia(){
-        if (this.experiencia>=8){
-            this.nivel=2;
-        } else if (this.experiencia>17) {
-            this.nivel=3;
-        }
+    public void incExperiencia(int incrementar){
+        this.experiencia+=incrementar;
+       if (this.experiencia>=17){
+        this.nivel=3;
+       } else if (this.experiencia>=8) {
+           this.nivel=2;
+       }else {
+           this.nivel=1;
+       }
+    }
+
+    @Override
+    public String toString() {
+        return "Guerrera" +
+                "\n vida=" + vida +
+                "\n experiencia=" + experiencia +
+                "\n nivel=" + nivel;
     }
 }
