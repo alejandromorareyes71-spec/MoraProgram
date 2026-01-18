@@ -33,8 +33,7 @@ public class Guerrera {
 
     public int atacar() {
         int dañoTotal = 0;
-        // "i" cuenta desde 0 hasta llegar a tu nivel.
-        // Si nivel es 3, el bucle da 3 vueltas.
+        //i cuenta desde 0 hasta tu nivel actual
         for (int i = 0; i < this.nivel; i++) {
             int d6 = (int) (Math.random() * 6) + 1;
             dañoTotal += d6;
