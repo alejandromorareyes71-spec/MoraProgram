@@ -1,4 +1,4 @@
-package U4.Ejemplos.src;
+package U4.Ejemplos;
 // Falta el try catch
 import java.util.Scanner;
 

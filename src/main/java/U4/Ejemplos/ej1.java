@@ -1,6 +1,4 @@
-package U4.Ejemplos.src;
-
-import java.util.Arrays;
+package U4.Ejemplos;
 
 public class ej1 {
    public static void main(String[] args) {

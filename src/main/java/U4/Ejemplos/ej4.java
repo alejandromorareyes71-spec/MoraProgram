@@ -1,4 +1,4 @@
-package U4.Ejemplos.src;
+package U4.Ejemplos;
 
 public class ej4 {
     public static void main(String[] args) {

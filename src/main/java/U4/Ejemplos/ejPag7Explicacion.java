@@ -1,4 +1,4 @@
-package U4.Ejemplos.src;
+package U4.Ejemplos;
 
 import java.util.Arrays;
 
