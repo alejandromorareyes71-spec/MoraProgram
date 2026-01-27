@@ -3,8 +3,8 @@ package U4.E3;
 import java.util.Arrays;
 
 public class Carta {
-    String  tipo= new String;
-    String [] informacion;
+    String  tipo;
+    String [] informacion= new String[12];
 
     public Carta(String tipo, String []informacion){
         setTipo(tipo);
@@ -20,7 +20,12 @@ public class Carta {
     }
 
     public void setTipo(String tipo) {
-        this.tipo = tipo;
+        if (tipo.equalsIgnoreCase("ESBIRRO")||tipo.equalsIgnoreCase("TRAMPA")||tipo.equalsIgnoreCase("COMERCIANTE")){
+            this.tipo = tipo;
+        }else {
+            System.out.println("tipo no valido, se establece valor por defecto");
+            this.tipo="ESBIRRO";
+        }
     }
 
     public String[] getInformacion() {
@@ -30,8 +35,12 @@ public class Carta {
     public void setInformacion(String[] informacion) {
         this.informacion = informacion;
     }
+
+    //HACER METODO TOSTRING
+
+
 }
-}
+
 
 
 
