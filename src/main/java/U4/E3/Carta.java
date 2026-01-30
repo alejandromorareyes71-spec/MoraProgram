@@ -20,7 +20,7 @@ public class Carta {
     }
 
     public void setTipo(String tipo) {
-        if (tipo.equalsIgnoreCase("ESBIRRO")||tipo.equalsIgnoreCase("TRAMPA")||tipo.equalsIgnoreCase("COMERCIANTE")){
+        if (tipo.equalsIgnoreCase("ESBIRRO")||tipo.equalsIgnoreCase("TRAMPA")||tipo.equalsIgnoreCase("COMERCIANTE")||tipo.equalsIgnoreCase("DESCANSO")||tipo.equalsIgnoreCase("TESORO")||tipo.equalsIgnoreCase("COMERCIANTE")||tipo.equalsIgnoreCase("EVENTO")){
             this.tipo = tipo;
         }else {
             System.out.println("tipo no valido, se establece valor por defecto");
@@ -36,9 +36,15 @@ public class Carta {
         this.informacion = informacion;
     }
 
-    //HACER METODO TOSTRING
 
 
+    @Override
+    public String toString() {
+        return "Carta{" +
+                "tipo='" + tipo + '\'' +
+                ", informacion=" + Arrays.toString(informacion) +
+                '}';
+    }
 }
 
 

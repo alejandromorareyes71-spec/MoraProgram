@@ -1,3 +1,4 @@
+/*
 package U3.EjemploExamen;
 
 public class NaveEspacial {
@@ -48,4 +49,7 @@ public class NaveEspacial {
     }
 
 
+
+
 }
+*/
