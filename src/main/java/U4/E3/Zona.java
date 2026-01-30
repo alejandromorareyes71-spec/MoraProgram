@@ -36,7 +36,6 @@ public class Zona {
     }
 
     public void setMcarta(int fila, int columna, Carta carta) {
-        // Implementación del método basado en la estructura de la fuente [1, 4]
         if (fila >= 0 && fila < 3 && columna >= 0 && columna < 3) {
             this.Mcarta[fila][columna] = carta;
         }
